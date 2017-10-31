@@ -23,6 +23,7 @@
         </div>
             
         <div class="modal-content">
-                  <!--Your modal content goes here-->
+                 <input type="text" maxlength="30" name="search" placeholder="SEARCH">
+                 <a href="#" class="searchBtn"><img src="assets/icons/magnifying-glass.svg"></a>
         </div>
     </div></div>

@@ -7,7 +7,6 @@ $(document).ready(function () {
 		event.preventDefault();
     });
 
-
     $('.navigation a').click(function (e) {
         e.preventDefault();
         $('.navigation a').removeClass('active');
@@ -64,7 +63,7 @@ var $btns = $('.nav-unsorted li a').click(function() {
  $("#modalSearch").animatedModal({
         animatedIn:'slideInDown',
         animatedOut:'slideOutUp',
-        color:'#060606f2',
+        color:'#295252d6',
         beforeOpen: function() {
 
             var children = $(".thumb");

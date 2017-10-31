@@ -19,6 +19,8 @@ html {
     height: 100%!important;
 }
 
+$mainb: #9ac3c3;
+$mainc: #b18646;
 $font: 'PT Sans', sans-serif;
 $bold: 'Myriad Set Pro Bold';
 $ubuntu: 'Ubuntu', sans-serif;
@@ -50,6 +52,7 @@ a{
 }
 
 input{
+    border: 0;
     &:focus{
         border: 0;
         outline: 0;
@@ -89,6 +92,11 @@ button{
 .boxed{
     
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
+    -moz-box-sizing: border-box;
+}
+
+.boxedSmall{
+    box-shadow: 0 1px 1px #66abab;
     -moz-box-sizing: border-box;
 }
 

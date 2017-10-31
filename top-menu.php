@@ -12,7 +12,7 @@
 
 <div class="topMenuContent">
    <div class="ov-pa">
-    <div class="rw boxed slow">
+    <div class="rw boxedSmall slow animated">
         <ul>
             <li><a href="#">Link 01</a></li>
             <li><a href="#">Link 01</a></li>
