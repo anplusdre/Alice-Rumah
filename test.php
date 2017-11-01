@@ -31,7 +31,7 @@
         <div class="row left">
 
             <!-- START DISPLAY -->
-            <div ng-controller="AgentController as agent">
+            <div ng-controller="AgentController as agent" class="talent-container">
                 <div ng-repeat="product in agent.products" class="card boxed" ng-class=" {{product.indexing}}">
                     <div class="actionlist">
                         <div id="id"><span>{{product.id}}</span></div>

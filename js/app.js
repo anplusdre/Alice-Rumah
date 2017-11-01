@@ -18,7 +18,7 @@
                     '../assets/images/Jasmina7.jpg',
 
                 ],
-            skills: ['Usherette', 'escort', 'Modeling'],
+            skills: ['Usherette', 'escort'],
             indexing: ['usher', 'escort']
 
         },
@@ -60,7 +60,7 @@
                     '../assets/images/AnneD21.jpg',
 
                 ],
-            skills: ['Usherette', 'escort', 'Modeling'],
+            skills: ['Modeling'],
             indexing: ['model']
 
         }

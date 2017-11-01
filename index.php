@@ -1,5 +1,7 @@
 <?php include 'header.php';?>
-
+<audio autoplay>
+  <source src="assets/Smooth%20Jazz%20Piano%20Lounge%20-%20Nighttime%20Stroll.mp3" type="audio/mpeg">
+</audio>
 <header>
     <?php include 'top-menu.php';?>
 </header>

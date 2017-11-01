@@ -195,6 +195,13 @@ button:focus {
   min-height: 1px;
 }
 
+/* line 198, D:/wamp64/www/style/scss/basic.scss */
+.talent-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 /* line 2, D:/wamp64/www/style/scss/style.scss */
 html,
 body {
