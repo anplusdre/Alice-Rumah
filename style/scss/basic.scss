@@ -125,6 +125,10 @@ button {
     -moz-box-sizing: border-box;
 }
 
+.clear {
+    clear: both;
+}
+
 .slow {
     transition: all .2s ease-in-out;
 }
@@ -145,6 +149,41 @@ button {
 .spacer.big {
     height: 10vh;
     position: relative;
+}
+
+.gr-2-5 {
+    width: 55%;
+    min-height: 1px;
+}
+
+.gr-2-4 {
+    width: 40%;
+}
+
+.gr-3 {
+    width: 33%;
+    min-height: 1px;
+}
+
+
+.gr-3-5 {
+    width: 30%;
+    min-height: 1px;
+}
+
+.gr-4 {
+    width: 25%;
+    min-height: 1px;
+}
+
+.gr-5 {
+    width: 20%;
+    min-height: 1px;
+}
+
+.gr-10 {
+    width: 10%;
+    min-height: 1px;
 }
 
 
