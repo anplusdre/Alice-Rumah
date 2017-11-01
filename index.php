@@ -7,8 +7,8 @@
 <?php include 'nav.php';?>
 <div class="grid display">
     <div class="row center">
-       
-       <!-- START DISPLAY -->
+
+        <!-- START DISPLAY -->
         <div class="card boxed usher">
             <div class="actionlist">
                 <div id="id"><span>US-3345</span></div>
@@ -26,7 +26,7 @@
                 <div><img id="slideShow" src="assets/images/Jasmina3.jpg"></div>
                 <div class="hide"><img id="slideShow" src="assets/images/Jasmina4.jpg"></div>
                 <div class="hide"><img id="slideShow" src="assets/images/Jasmina7.jpg"></div>
-                
+
             </div>
             <div class="info">
                 <div id="name">jasmina</div>
@@ -41,8 +41,8 @@
                 <a href="#" class="boxedMedium">Modeling</a>
             </div>
         </div>
-        
-        
+
+
         <div class="card boxed model">
             <div class="actionlist">
                 <div id="id"><span>US-3345</span></div>
@@ -60,7 +60,7 @@
                 <div><img id="slideShow" src="assets/images/BrunaD17.jpg"></div>
                 <div class="hide"><img id="slideShow" src="assets/images/BrunaD10.jpg"></div>
                 <div class="hide"><img id="slideShow" src="assets/images/BrunaD18.jpg"></div>
-                
+
             </div>
             <div class="info">
                 <div id="name">BRUNA</div>
@@ -75,8 +75,8 @@
                 <a href="#" class="boxedMedium">Modeling</a>
             </div>
         </div>
-        
-        
+
+
         <div class="card boxed user model spg">
             <div class="actionlist">
                 <div id="id"><span>US-3345</span></div>
@@ -94,7 +94,7 @@
                 <div><img id="slideShow" src="assets/images/Anda.jpg"></div>
                 <div class="hide"><img id="slideShow" src="assets/images/Anda11.jpg"></div>
                 <div class="hide"><img id="slideShow" src="assets/images/Anda8.jpg"></div>
-                
+
             </div>
             <div class="info">
                 <div id="name">aNDA</div>
@@ -109,8 +109,8 @@
                 <a href="#" class="boxedMedium">Modeling</a>
             </div>
         </div>
-        
-        
+
+
         <div class="card boxed spg">
             <div class="actionlist">
                 <div id="id"><span>US-3345</span></div>
@@ -128,7 +128,7 @@
                 <div><img id="slideShow" src="assets/images/AnneD8.jpg"></div>
                 <div class="hide"><img id="slideShow" src="assets/images/AnneD21.jpg"></div>
                 <div class="hide"><img id="slideShow" src="assets/images/AnneD17.jpg"></div>
-                
+
             </div>
             <div class="info">
                 <div id="name">cINTYA</div>
@@ -154,12 +154,9 @@
 
 <div class="spacer huge"></div>
 
-<script src="js/script.js"></script>
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/jquery.js"></script>
-<script src="plugins/slick.js"></script>
-<script src="plugins/animatedModal.js"></script>
-<script src="js/tilt.jquery.js"></script>
-</body>
 
-</html>
+
+
+
+
+<?php include 'footer.php';?>

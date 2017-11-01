@@ -8,66 +8,85 @@
   /* Legacy iOS */
 }
 
-/* line 17, D:/wamp64/www/style/scss/basic.scss */
+/* line 19, D:/wamp64/www/style/scss/basic.scss */
 html {
   background: #FFFFFF;
   height: 100% !important;
 }
 
-/* line 39, D:/wamp64/www/style/scss/basic.scss */
-ol, ul {
+/* line 47, D:/wamp64/www/style/scss/basic.scss */
+ol,
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* line 45, D:/wamp64/www/style/scss/basic.scss */
+/* line 54, D:/wamp64/www/style/scss/basic.scss */
 li {
   display: inline-block;
 }
 
-/* line 49, D:/wamp64/www/style/scss/basic.scss */
+/* line 58, D:/wamp64/www/style/scss/basic.scss */
 a {
   color: #989898;
   text-decoration: none;
 }
 
-/* line 54, D:/wamp64/www/style/scss/basic.scss */
+/* line 63, D:/wamp64/www/style/scss/basic.scss */
 input {
   border: 0;
 }
 
-/* line 56, D:/wamp64/www/style/scss/basic.scss */
+/* line 65, D:/wamp64/www/style/scss/basic.scss */
 input:focus {
   border: 0;
   outline: 0;
 }
 
-/* line 62, D:/wamp64/www/style/scss/basic.scss */
-*, *:before, *:after {
+/* line 71, D:/wamp64/www/style/scss/basic.scss */
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 68, D:/wamp64/www/style/scss/basic.scss */
+/* line 79, D:/wamp64/www/style/scss/basic.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 73, D:/wamp64/www/style/scss/basic.scss */
+/* line 84, D:/wamp64/www/style/scss/basic.scss */
 button {
   border: 0;
   cursor: pointer;
 }
 
-/* line 76, D:/wamp64/www/style/scss/basic.scss */
+/* line 87, D:/wamp64/www/style/scss/basic.scss */
 button:focus {
   outline: none;
 }
 
-/* line 81, D:/wamp64/www/style/scss/basic.scss */
+/* line 92, D:/wamp64/www/style/scss/basic.scss */
+::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
+/* line 96, D:/wamp64/www/style/scss/basic.scss */
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+/* line 101, D:/wamp64/www/style/scss/basic.scss */
+::-webkit-scrollbar-thumb {
+  background-color: #9ac3c3;
+}
+
+/* line 106, D:/wamp64/www/style/scss/basic.scss */
 .button {
   display: inline-block;
   float: right;
@@ -75,45 +94,45 @@ button:focus {
   top: -15px;
 }
 
-/* line 88, D:/wamp64/www/style/scss/basic.scss */
+/* line 113, D:/wamp64/www/style/scss/basic.scss */
 .rl-container {
   position: relative;
 }
 
-/* line 92, D:/wamp64/www/style/scss/basic.scss */
+/* line 117, D:/wamp64/www/style/scss/basic.scss */
 .boxed {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
   -moz-box-sizing: border-box;
 }
 
-/* line 98, D:/wamp64/www/style/scss/basic.scss */
+/* line 123, D:/wamp64/www/style/scss/basic.scss */
 .boxedSmall {
   box-shadow: 0 1px 1px #66abab;
   -moz-box-sizing: border-box;
 }
 
-/* line 103, D:/wamp64/www/style/scss/basic.scss */
+/* line 128, D:/wamp64/www/style/scss/basic.scss */
 .slow {
   transition: all .2s ease-in-out;
 }
 
-/* line 107, D:/wamp64/www/style/scss/basic.scss */
+/* line 132, D:/wamp64/www/style/scss/basic.scss */
 .row {
   width: 1124px;
   margin: 0 auto;
 }
 
-/* line 112, D:/wamp64/www/style/scss/basic.scss */
+/* line 137, D:/wamp64/www/style/scss/basic.scss */
 .center {
   text-align: center;
 }
 
-/* line 116, D:/wamp64/www/style/scss/basic.scss */
+/* line 141, D:/wamp64/www/style/scss/basic.scss */
 .spacer.huge {
   height: 20vh;
 }
 
-/* line 117, D:/wamp64/www/style/scss/basic.scss */
+/* line 145, D:/wamp64/www/style/scss/basic.scss */
 .spacer.big {
   height: 10vh;
   position: relative;
