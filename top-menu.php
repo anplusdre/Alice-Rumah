@@ -2,10 +2,26 @@
     <div class="stackMenu"><a href="#"><img src="assets/icons/menu.svg"></a></div>
     <div class="menuPost">
         <ul>
+            <li><a href="#" class="joinBtn">Join</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Events</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+    </div>
+</div>
+
+<div class="fixedMenu boxed fixed">
+    <div class="topMenu">
+        <div class="stackMenu"><a href="#"><img src="assets/icons/menu.svg"></a></div>
+
+        <div class="logo logo-ico-fixed"><img src="assets/images/ALIS-DEER-ICON.svg"></div>
+
+        <div class="menuPost">
+            <ul>
+                <li><a href="#" class="joinBtn">Join</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 

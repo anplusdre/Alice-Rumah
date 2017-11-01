@@ -42,13 +42,7 @@
 
         <div class="boxing gr-5">
 
-            <div class="payment-logo">
-                <ul>
-                    <li class="bca"><a href="#">BCA</a></li>
-                    <li class="visa"><a href="#">Visa</a></li>
-                    <li class="mastercard"><a href="#">MasterCard</a></li>
-                </ul>
-            </div>
+
 
             <div class="social-sprites">
                 <ul>
@@ -56,6 +50,14 @@
                     <li class="twitter"><a href="#">Twitter</a></li>
                     <li class="googlep"><a href="#">Google+</a></li>
                     <li class="instagram"><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+
+            <div class="payment-logo">
+                <ul>
+                    <li class="bca"><a href="#">BCA</a></li>
+                    <li class="visa"><a href="#">Visa</a></li>
+                    <li class="mastercard"><a href="#">MasterCard</a></li>
                 </ul>
             </div>
 
@@ -75,7 +77,6 @@
 <script src="js/jquery.js"></script>
 <script src="plugins/slick.js"></script>
 <script src="plugins/animatedModal.js"></script>
-<script src="js/tilt.jquery.js"></script>
 </body>
 
 </html>

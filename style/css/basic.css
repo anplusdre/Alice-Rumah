@@ -112,73 +112,84 @@ button:focus {
 }
 
 /* line 128, D:/wamp64/www/style/scss/basic.scss */
+.boxed.fixed {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
+  -moz-box-sizing: border-box;
+}
+
+/* line 133, D:/wamp64/www/style/scss/basic.scss */
 .clear {
   clear: both;
 }
 
-/* line 132, D:/wamp64/www/style/scss/basic.scss */
+/* line 137, D:/wamp64/www/style/scss/basic.scss */
 .slow {
   transition: all .2s ease-in-out;
 }
 
-/* line 136, D:/wamp64/www/style/scss/basic.scss */
+/* line 141, D:/wamp64/www/style/scss/basic.scss */
 .row {
   width: 1124px;
   margin: 0 auto;
 }
 
-/* line 141, D:/wamp64/www/style/scss/basic.scss */
+/* line 146, D:/wamp64/www/style/scss/basic.scss */
 .center {
   text-align: center;
 }
 
-/* line 145, D:/wamp64/www/style/scss/basic.scss */
+/* line 150, D:/wamp64/www/style/scss/basic.scss */
+.left {
+  text-align: left;
+}
+
+/* line 154, D:/wamp64/www/style/scss/basic.scss */
 .spacer.huge {
   height: 20vh;
 }
 
-/* line 149, D:/wamp64/www/style/scss/basic.scss */
+/* line 158, D:/wamp64/www/style/scss/basic.scss */
 .spacer.big {
   height: 10vh;
   position: relative;
 }
 
-/* line 154, D:/wamp64/www/style/scss/basic.scss */
+/* line 163, D:/wamp64/www/style/scss/basic.scss */
 .gr-2-5 {
   width: 55%;
   min-height: 1px;
 }
 
-/* line 159, D:/wamp64/www/style/scss/basic.scss */
+/* line 168, D:/wamp64/www/style/scss/basic.scss */
 .gr-2-4 {
   width: 40%;
 }
 
-/* line 163, D:/wamp64/www/style/scss/basic.scss */
+/* line 172, D:/wamp64/www/style/scss/basic.scss */
 .gr-3 {
   width: 33%;
   min-height: 1px;
 }
 
-/* line 169, D:/wamp64/www/style/scss/basic.scss */
+/* line 178, D:/wamp64/www/style/scss/basic.scss */
 .gr-3-5 {
   width: 30%;
   min-height: 1px;
 }
 
-/* line 174, D:/wamp64/www/style/scss/basic.scss */
+/* line 183, D:/wamp64/www/style/scss/basic.scss */
 .gr-4 {
   width: 25%;
   min-height: 1px;
 }
 
-/* line 179, D:/wamp64/www/style/scss/basic.scss */
+/* line 188, D:/wamp64/www/style/scss/basic.scss */
 .gr-5 {
   width: 20%;
   min-height: 1px;
 }
 
-/* line 184, D:/wamp64/www/style/scss/basic.scss */
+/* line 193, D:/wamp64/www/style/scss/basic.scss */
 .gr-10 {
   width: 10%;
   min-height: 1px;

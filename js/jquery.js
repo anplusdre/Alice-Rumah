@@ -7,6 +7,11 @@ $(document).ready(function () {
         event.preventDefault();
     });
 
+    $('.fixedMenu .stackMenu a').click(function (event) {
+        $(this).children('.rw').toggleClass('active');
+        event.preventDefault();
+    });
+
     $('.navigation a').click(function (e) {
         e.preventDefault();
         $('.navigation a').removeClass('active');
@@ -89,7 +94,13 @@ $(document).ready(function () {
 
 
 
-
+    $(window).scroll(function () {
+        if ($(window).scrollTop() >= 400) {
+            $('.fixedMenu').show();
+        } else {
+            $('.fixedMenu').hide();
+        }
+    });
 
 
 

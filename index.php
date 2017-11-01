@@ -6,7 +6,7 @@
 
 <?php include 'nav.php';?>
 <div class="grid display">
-    <div class="row center">
+    <div class="row left">
 
         <!-- START DISPLAY -->
         <div class="card boxed usher">
@@ -145,8 +145,6 @@
         </div>
 
 
-        <div class="clear"></div>
-
         <div class="card boxed usher">
             <div class="actionlist">
                 <div id="id"><span>US-3345</span></div>
@@ -283,8 +281,6 @@
         </div>
 
 
-        <div class="clear"></div>
-
         <div class="card boxed usher">
             <div class="actionlist">
                 <div id="id"><span>US-3345</span></div>
@@ -419,9 +415,6 @@
                 <a href="#" class="boxedMedium">Modeling</a>
             </div>
         </div>
-
-
-        <div class="clear"></div>
 
 
 
