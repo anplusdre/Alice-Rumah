@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="plugins/slick.css">
     <link rel="stylesheet" href="plugins/animate.min.css">
     <link rel="stylesheet" href="plugins/normalize.min.css">
-
+    <script src="js/angular.js" type="text/javascript"></script>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->

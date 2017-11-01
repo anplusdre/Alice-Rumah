@@ -8,66 +8,85 @@
   /* Legacy iOS */
 }
 
-/* line 17, D:/wamp64/www/style/scss/basic.scss */
+/* line 19, D:/wamp64/www/style/scss/basic.scss */
 html {
   background: #FFFFFF;
   height: 100% !important;
 }
 
-/* line 39, D:/wamp64/www/style/scss/basic.scss */
-ol, ul {
+/* line 47, D:/wamp64/www/style/scss/basic.scss */
+ol,
+ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-/* line 45, D:/wamp64/www/style/scss/basic.scss */
+/* line 54, D:/wamp64/www/style/scss/basic.scss */
 li {
   display: inline-block;
 }
 
-/* line 49, D:/wamp64/www/style/scss/basic.scss */
+/* line 58, D:/wamp64/www/style/scss/basic.scss */
 a {
   color: #989898;
   text-decoration: none;
 }
 
-/* line 54, D:/wamp64/www/style/scss/basic.scss */
+/* line 63, D:/wamp64/www/style/scss/basic.scss */
 input {
   border: 0;
 }
 
-/* line 56, D:/wamp64/www/style/scss/basic.scss */
+/* line 65, D:/wamp64/www/style/scss/basic.scss */
 input:focus {
   border: 0;
   outline: 0;
 }
 
-/* line 62, D:/wamp64/www/style/scss/basic.scss */
-*, *:before, *:after {
+/* line 71, D:/wamp64/www/style/scss/basic.scss */
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 68, D:/wamp64/www/style/scss/basic.scss */
+/* line 79, D:/wamp64/www/style/scss/basic.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 73, D:/wamp64/www/style/scss/basic.scss */
+/* line 84, D:/wamp64/www/style/scss/basic.scss */
 button {
   border: 0;
   cursor: pointer;
 }
 
-/* line 76, D:/wamp64/www/style/scss/basic.scss */
+/* line 87, D:/wamp64/www/style/scss/basic.scss */
 button:focus {
   outline: none;
 }
 
-/* line 81, D:/wamp64/www/style/scss/basic.scss */
+/* line 92, D:/wamp64/www/style/scss/basic.scss */
+::-webkit-scrollbar-track {
+  background-color: #ddd;
+}
+
+/* line 96, D:/wamp64/www/style/scss/basic.scss */
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: #F5F5F5;
+}
+
+/* line 101, D:/wamp64/www/style/scss/basic.scss */
+::-webkit-scrollbar-thumb {
+  background-color: #9ac3c3;
+}
+
+/* line 106, D:/wamp64/www/style/scss/basic.scss */
 .button {
   display: inline-block;
   float: right;
@@ -75,48 +94,105 @@ button:focus {
   top: -15px;
 }
 
-/* line 88, D:/wamp64/www/style/scss/basic.scss */
+/* line 113, D:/wamp64/www/style/scss/basic.scss */
 .rl-container {
   position: relative;
 }
 
-/* line 92, D:/wamp64/www/style/scss/basic.scss */
+/* line 117, D:/wamp64/www/style/scss/basic.scss */
 .boxed {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
   -moz-box-sizing: border-box;
 }
 
-/* line 98, D:/wamp64/www/style/scss/basic.scss */
+/* line 123, D:/wamp64/www/style/scss/basic.scss */
 .boxedSmall {
   box-shadow: 0 1px 1px #66abab;
   -moz-box-sizing: border-box;
 }
 
-/* line 103, D:/wamp64/www/style/scss/basic.scss */
+/* line 128, D:/wamp64/www/style/scss/basic.scss */
+.boxed.fixed {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
+  -moz-box-sizing: border-box;
+}
+
+/* line 133, D:/wamp64/www/style/scss/basic.scss */
+.clear {
+  clear: both;
+}
+
+/* line 137, D:/wamp64/www/style/scss/basic.scss */
 .slow {
   transition: all .2s ease-in-out;
 }
 
-/* line 107, D:/wamp64/www/style/scss/basic.scss */
+/* line 141, D:/wamp64/www/style/scss/basic.scss */
 .row {
   width: 1124px;
   margin: 0 auto;
 }
 
-/* line 112, D:/wamp64/www/style/scss/basic.scss */
+/* line 146, D:/wamp64/www/style/scss/basic.scss */
 .center {
   text-align: center;
 }
 
-/* line 116, D:/wamp64/www/style/scss/basic.scss */
+/* line 150, D:/wamp64/www/style/scss/basic.scss */
+.left {
+  text-align: left;
+}
+
+/* line 154, D:/wamp64/www/style/scss/basic.scss */
 .spacer.huge {
   height: 20vh;
 }
 
-/* line 117, D:/wamp64/www/style/scss/basic.scss */
+/* line 158, D:/wamp64/www/style/scss/basic.scss */
 .spacer.big {
   height: 10vh;
   position: relative;
+}
+
+/* line 163, D:/wamp64/www/style/scss/basic.scss */
+.gr-2-5 {
+  width: 55%;
+  min-height: 1px;
+}
+
+/* line 168, D:/wamp64/www/style/scss/basic.scss */
+.gr-2-4 {
+  width: 40%;
+}
+
+/* line 172, D:/wamp64/www/style/scss/basic.scss */
+.gr-3 {
+  width: 33%;
+  min-height: 1px;
+}
+
+/* line 178, D:/wamp64/www/style/scss/basic.scss */
+.gr-3-5 {
+  width: 30%;
+  min-height: 1px;
+}
+
+/* line 183, D:/wamp64/www/style/scss/basic.scss */
+.gr-4 {
+  width: 25%;
+  min-height: 1px;
+}
+
+/* line 188, D:/wamp64/www/style/scss/basic.scss */
+.gr-5 {
+  width: 20%;
+  min-height: 1px;
+}
+
+/* line 193, D:/wamp64/www/style/scss/basic.scss */
+.gr-10 {
+  width: 10%;
+  min-height: 1px;
 }
 
 /* line 2, D:/wamp64/www/style/scss/style.scss */
@@ -132,7 +208,7 @@ body {
 
 /* line 12, D:/wamp64/www/style/scss/style.scss */
 header {
-  background: #9ac3c3;
+  background: #FFFFFF;
   height: 250px;
   position: relative;
 }
@@ -172,17 +248,18 @@ header:after {
   display: block;
   padding: 15px 0;
   font-family: "PT Sans", sans-serif;
+  color: #989898;
   font-size: 0.85em;
   position: relative;
 }
 
-/* line 48, D:/wamp64/www/style/scss/style.scss */
+/* line 49, D:/wamp64/www/style/scss/style.scss */
 .navigation ul li a.active {
   color: #b18646;
   font-weight: bold;
 }
 
-/* line 52, D:/wamp64/www/style/scss/style.scss */
+/* line 53, D:/wamp64/www/style/scss/style.scss */
 .navigation ul li a.active:before {
   content: " ";
   display: inline-block;
@@ -197,28 +274,28 @@ header:after {
   position: absolute;
 }
 
-/* line 66, D:/wamp64/www/style/scss/style.scss */
+/* line 67, D:/wamp64/www/style/scss/style.scss */
 .navigation ul li:first-child {
   padding-left: 0;
 }
 
-/* line 72, D:/wamp64/www/style/scss/style.scss */
+/* line 73, D:/wamp64/www/style/scss/style.scss */
 .stackMenu {
   display: inline;
   padding-left: 80px;
 }
 
-/* line 75, D:/wamp64/www/style/scss/style.scss */
+/* line 76, D:/wamp64/www/style/scss/style.scss */
 .stackMenu a {
   display: inline-block;
 }
 
-/* line 77, D:/wamp64/www/style/scss/style.scss */
+/* line 78, D:/wamp64/www/style/scss/style.scss */
 .stackMenu a img {
   width: 30px;
 }
 
-/* line 83, D:/wamp64/www/style/scss/style.scss */
+/* line 84, D:/wamp64/www/style/scss/style.scss */
 .topMenu {
   margin: 0 auto;
   position: relative;
@@ -226,80 +303,115 @@ header:after {
   padding-right: 80px;
 }
 
-/* line 88, D:/wamp64/www/style/scss/style.scss */
+/* line 89, D:/wamp64/www/style/scss/style.scss */
 .topMenu .menuPost {
   float: right;
-}
-
-/* line 91, D:/wamp64/www/style/scss/style.scss */
-.topMenu .menuPost ul li {
-  padding-left: 25px;
 }
 
 /* line 93, D:/wamp64/www/style/scss/style.scss */
 .topMenu .menuPost ul li a {
   display: block;
-  color: #ffffff;
+  color: #b18646;
   font-family: "Ubuntu", sans-serif;
   font-size: 13px;
+  padding: 4px;
+  width: 70px;
+  text-align: center;
+  border-radius: 3px;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 104, D:/wamp64/www/style/scss/style.scss */
+/* line 103, D:/wamp64/www/style/scss/style.scss */
+.topMenu .menuPost ul li a:hover {
+  background: #c5e0e0;
+}
+
+/* line 110, D:/wamp64/www/style/scss/style.scss */
+.topMenu .menuPost ul li .joinBtn {
+  background: #9ac3c3;
+  color: #fff;
+  box-shadow: 0px 1px 8px 0px #9ac3c3;
+  -moz-box-sizing: border-box;
+}
+
+/* line 115, D:/wamp64/www/style/scss/style.scss */
+.topMenu .menuPost ul li .joinBtn:hover {
+  background: #9ac3c3;
+  box-shadow: none;
+}
+
+/* line 125, D:/wamp64/www/style/scss/style.scss */
 .topMenuContent {
   position: relative;
   float: left;
   left: 120px;
-  top: -45px;
+  top: -70px;
 }
 
-/* line 109, D:/wamp64/www/style/scss/style.scss */
+/* line 130, D:/wamp64/www/style/scss/style.scss */
 .topMenuContent .rw {
   position: relative;
   transform: translateY(-150%);
   text-align: center;
-  background: #F5F5F5;
-  border-radius: 4px;
+  background: #9ac3c3;
   transition: all .35s ease-in-out;
   width: 150px;
+  height: 250px;
 }
 
-/* line 118, D:/wamp64/www/style/scss/style.scss */
+/* line 138, D:/wamp64/www/style/scss/style.scss */
+.topMenuContent .rw ul {
+  height: 250px;
+}
+
+/* line 140, D:/wamp64/www/style/scss/style.scss */
 .topMenuContent .rw ul li {
   display: block;
 }
 
-/* line 120, D:/wamp64/www/style/scss/style.scss */
+/* line 142, D:/wamp64/www/style/scss/style.scss */
+.topMenuContent .rw ul li:hover > a {
+  letter-spacing: 4px;
+}
+
+/* line 145, D:/wamp64/www/style/scss/style.scss */
 .topMenuContent .rw ul li a {
-  padding: 8px 0;
+  padding: 18px 0;
   display: block;
   font-family: "Ubuntu", sans-serif;
   font-size: 13px;
+  color: #ffffff;
+  text-align: left;
+  padding-left: 53px;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 127, D:/wamp64/www/style/scss/style.scss */
+/* line 156, D:/wamp64/www/style/scss/style.scss */
 .topMenuContent .rw ul li:last-child {
   border-bottom: 0;
 }
 
-/* line 132, D:/wamp64/www/style/scss/style.scss */
+/* line 161, D:/wamp64/www/style/scss/style.scss */
 .topMenuContent .rw.active {
   transform: translateY(0%);
   opacity: 1 !important;
 }
 
-/* line 138, D:/wamp64/www/style/scss/style.scss */
+/* line 167, D:/wamp64/www/style/scss/style.scss */
 .ov-pa {
   overflow: hidden;
   padding: 5px;
 }
 
-/* line 143, D:/wamp64/www/style/scss/style.scss */
+/* line 172, D:/wamp64/www/style/scss/style.scss */
 .grid {
   position: relative;
   margin-top: 50px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-/* line 146, D:/wamp64/www/style/scss/style.scss */
+/* line 178, D:/wamp64/www/style/scss/style.scss */
 .grid .card {
   background: #fff;
   flex: 1;
@@ -310,26 +422,26 @@ header:after {
   margin-bottom: 5em;
 }
 
-/* line 154, D:/wamp64/www/style/scss/style.scss */
+/* line 186, D:/wamp64/www/style/scss/style.scss */
 .grid .card .media {
   padding-top: 0;
   max-width: 230px;
   overflow: hidden;
 }
 
-/* line 158, D:/wamp64/www/style/scss/style.scss */
+/* line 190, D:/wamp64/www/style/scss/style.scss */
 .grid .card .media div {
   height: 344px;
 }
 
-/* line 160, D:/wamp64/www/style/scss/style.scss */
+/* line 192, D:/wamp64/www/style/scss/style.scss */
 .grid .card .media div img {
   height: 344px;
   min-width: 230px;
   max-width: 230px;
 }
 
-/* line 166, D:/wamp64/www/style/scss/style.scss */
+/* line 198, D:/wamp64/www/style/scss/style.scss */
 .grid .card .media .overlay {
   opacity: 0;
   position: absolute;
@@ -342,7 +454,7 @@ header:after {
   transition: background 1s ease-out;
 }
 
-/* line 176, D:/wamp64/www/style/scss/style.scss */
+/* line 208, D:/wamp64/www/style/scss/style.scss */
 .grid .card .media .overlay .gallery {
   top: 50%;
   color: #5188ea;
@@ -352,7 +464,7 @@ header:after {
   transform: translate(-50%, -50%);
 }
 
-/* line 187, D:/wamp64/www/style/scss/style.scss */
+/* line 219, D:/wamp64/www/style/scss/style.scss */
 .grid .card .information {
   position: absolute;
   text-align: right;
@@ -360,7 +472,7 @@ header:after {
   right: 50px;
 }
 
-/* line 193, D:/wamp64/www/style/scss/style.scss */
+/* line 225, D:/wamp64/www/style/scss/style.scss */
 .grid .card .moreBtn {
   padding: 4px 10px;
   display: block;
@@ -374,13 +486,13 @@ header:after {
   -moz-box-sizing: border-box;
 }
 
-/* line 205, D:/wamp64/www/style/scss/style.scss */
+/* line 237, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist {
   position: relative;
   height: 25px;
 }
 
-/* line 208, D:/wamp64/www/style/scss/style.scss */
+/* line 240, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist .addBtn {
   display: inline;
   position: absolute;
@@ -388,12 +500,12 @@ header:after {
   line-height: 31px;
 }
 
-/* line 213, D:/wamp64/www/style/scss/style.scss */
+/* line 245, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist .addBtn img {
   width: 15px;
 }
 
-/* line 217, D:/wamp64/www/style/scss/style.scss */
+/* line 249, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist .loveBtn {
   display: inline;
   position: absolute;
@@ -401,25 +513,25 @@ header:after {
   line-height: 31px;
 }
 
-/* line 222, D:/wamp64/www/style/scss/style.scss */
+/* line 254, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist .loveBtn img {
   width: 15px;
 }
 
-/* line 230, D:/wamp64/www/style/scss/style.scss */
+/* line 262, D:/wamp64/www/style/scss/style.scss */
 .grid.display {
   min-height: 100%;
   display: flex;
 }
 
-/* line 235, D:/wamp64/www/style/scss/style.scss */
+/* line 267, D:/wamp64/www/style/scss/style.scss */
 #id {
   display: inline;
   float: left;
   padding-left: 12px;
 }
 
-/* line 239, D:/wamp64/www/style/scss/style.scss */
+/* line 271, D:/wamp64/www/style/scss/style.scss */
 #id span {
   font-size: 12px;
   font-weight: 600;
@@ -427,12 +539,12 @@ header:after {
   color: #999;
 }
 
-/* line 244, D:/wamp64/www/style/scss/style.scss */
+/* line 276, D:/wamp64/www/style/scss/style.scss */
 #id span:before {
   content: "#";
 }
 
-/* line 250, D:/wamp64/www/style/scss/style.scss */
+/* line 282, D:/wamp64/www/style/scss/style.scss */
 .info {
   position: relative;
   padding: 0 13px;
@@ -441,7 +553,7 @@ header:after {
   margin-bottom: 7px;
 }
 
-/* line 256, D:/wamp64/www/style/scss/style.scss */
+/* line 288, D:/wamp64/www/style/scss/style.scss */
 .info #name {
   position: relative;
   float: left;
@@ -449,10 +561,10 @@ header:after {
   line-height: 29px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
 }
 
-/* line 267, D:/wamp64/www/style/scss/style.scss */
+/* line 299, D:/wamp64/www/style/scss/style.scss */
 .skills-thumb {
   padding-bottom: 12px;
   width: 80%;
@@ -462,16 +574,22 @@ header:after {
   border-top: 1px solid #e2e2e2;
 }
 
-/* line 274, D:/wamp64/www/style/scss/style.scss */
+/* line 306, D:/wamp64/www/style/scss/style.scss */
 .skills-thumb .boxedMedium {
   display: inline-block;
   font-size: 12px;
   padding: 2px 5px;
   background: #ffffff;
   color: #9a9a9a;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 283, D:/wamp64/www/style/scss/style.scss */
+/* line 313, D:/wamp64/www/style/scss/style.scss */
+.skills-thumb .boxedMedium:hover {
+  color: #b18646;
+}
+
+/* line 319, D:/wamp64/www/style/scss/style.scss */
 .key-form {
   width: 400px;
   margin: 0 auto;
@@ -487,12 +605,12 @@ header:after {
   border-image-slice: 1;
 }
 
-/* line 296, D:/wamp64/www/style/scss/style.scss */
+/* line 332, D:/wamp64/www/style/scss/style.scss */
 .key-form form {
   position: relative;
 }
 
-/* line 298, D:/wamp64/www/style/scss/style.scss */
+/* line 334, D:/wamp64/www/style/scss/style.scss */
 .key-form form input[type=text] {
   background: #eee;
   width: 225px;
@@ -503,7 +621,7 @@ header:after {
   height: 21px;
 }
 
-/* line 307, D:/wamp64/www/style/scss/style.scss */
+/* line 343, D:/wamp64/www/style/scss/style.scss */
 .key-form form span {
   margin-right: 30px;
   font-size: 12px;
@@ -511,7 +629,7 @@ header:after {
   color: #888;
 }
 
-/* line 313, D:/wamp64/www/style/scss/style.scss */
+/* line 349, D:/wamp64/www/style/scss/style.scss */
 .key-form form .keyBtn {
   border: 0;
   outline: none;
@@ -521,58 +639,7 @@ header:after {
   top: 0;
 }
 
-/* line 324, D:/wamp64/www/style/scss/style.scss */
-.logoTilt {
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-  text-align: center;
-  background-color: #7e56ff;
-  background-image: -webkit-linear-gradient(300deg, #5a00ff 0%, #ff1ff7 100%, #ff1ff7 100%);
-  background-image: linear-gradient(150deg, #5a00ff 0%, #ff1ff7 100%, #ff1ff7 100%);
-  box-shadow: 0 20px 27px rgba(0, 0, 0, 0.05);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  color: white;
-  font-size: 3.16667rem;
-  line-height: 1.26316;
-  text-decoration: none;
-  font-weight: 300;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transform: perspective(500px);
-  transform: perspective(500px);
-  position: relative;
-}
-
-/* line 352, D:/wamp64/www/style/scss/style.scss */
-.logoTilt .bgdrop {
-  width: 70%;
-  height: 70%;
-  border-radius: 50%;
-  position: absolute;
-  background-image: -webkit-linear-gradient(300deg, #5a00ff 0%, #1fff73 100%, #1fff73 100%);
-  background-image: linear-gradient(150deg, #5a00ff 0%, #1fff73 100%, #1fff73 100%);
-  -webkit-transform: translateZ(0px);
-  transform: translateZ(0px);
-  opacity: 0;
-  -webkit-transition: 3s;
-  transition: 3s;
-}
-
-/* line 365, D:/wamp64/www/style/scss/style.scss */
-.logoTilt span {
-  transform: translateZ(40px);
-}
-
-/* line 370, D:/wamp64/www/style/scss/style.scss */
+/* line 361, D:/wamp64/www/style/scss/style.scss */
 .logo {
   text-align: center;
   position: relative;
@@ -580,13 +647,29 @@ header:after {
   margin: 0 auto;
 }
 
-/* line 376, D:/wamp64/www/style/scss/style.scss */
-.logo div img {
+/* line 367, D:/wamp64/www/style/scss/style.scss */
+.logo a img {
   height: 100px;
   transform: translateZ(40px);
 }
 
-/* line 383, D:/wamp64/www/style/scss/style.scss */
+/* line 375, D:/wamp64/www/style/scss/style.scss */
+.logo-ico-fixed {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  display: inline;
+  text-align: center;
+  width: 200px;
+  transform: translate(-50%, 0);
+}
+
+/* line 384, D:/wamp64/www/style/scss/style.scss */
+.logo-ico-fixed img {
+  height: 25px;
+}
+
+/* line 389, D:/wamp64/www/style/scss/style.scss */
 .timeSlide {
   top: 0;
   position: absolute;
@@ -594,7 +677,7 @@ header:after {
   height: 4px;
 }
 
-/* line 388, D:/wamp64/www/style/scss/style.scss */
+/* line 394, D:/wamp64/www/style/scss/style.scss */
 .timeSlide li {
   width: 30%;
   height: 4px;
@@ -603,7 +686,7 @@ header:after {
   margin: 0 3px;
 }
 
-/* line 394, D:/wamp64/www/style/scss/style.scss */
+/* line 400, D:/wamp64/www/style/scss/style.scss */
 .timeSlide li button {
   height: 4px;
   position: absolute;
@@ -615,34 +698,35 @@ header:after {
   transition: all .2s ease-in-out;
 }
 
-/* line 405, D:/wamp64/www/style/scss/style.scss */
+/* line 411, D:/wamp64/www/style/scss/style.scss */
 .timeSlide .slick-active button {
   background: #fff !important;
 }
 
-/* line 410, D:/wamp64/www/style/scss/style.scss */
+/* line 416, D:/wamp64/www/style/scss/style.scss */
 .media div:nth-child(2),
 .media div:nth-child(3) {
   display: none;
 }
 
-/* line 415, D:/wamp64/www/style/scss/style.scss */
+/* line 421, D:/wamp64/www/style/scss/style.scss */
 .media:hover:nth-child(2) {
   display: block;
 }
 
-/* line 419, D:/wamp64/www/style/scss/style.scss */
+/* line 425, D:/wamp64/www/style/scss/style.scss */
 .slick-slide img {
   display: inline-block;
 }
 
-/* line 424, D:/wamp64/www/style/scss/style.scss */
+/* line 430, D:/wamp64/www/style/scss/style.scss */
 #modalSearch {
   position: absolute;
   right: 0;
   top: -11px;
+  font-size: 11px;
   line-height: 25px;
-  width: 114px;
+  width: 90px;
   padding-right: 14px;
   margin-right: 50px;
   background: #b18646;
@@ -652,18 +736,26 @@ header:after {
   z-index: 2;
 }
 
-/* line 436, D:/wamp64/www/style/scss/style.scss */
+/* line 444, D:/wamp64/www/style/scss/style.scss */
+#modalSearch span {
+  padding-right: 9px;
+}
+
+/* line 447, D:/wamp64/www/style/scss/style.scss */
 #modalSearch:after {
   content: " ";
   background: url(../../assets/icons/magnifying-glass.svg) no-repeat;
-  width: 20px;
-  height: 20px;
-  top: 4px;
+  width: 28px;
+  background-position: 8px 7px;
+  height: 25px;
+  background-color: #9ac3c3;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
   margin-left: 5px;
   position: absolute;
 }
 
-/* line 447, D:/wamp64/www/style/scss/style.scss */
+/* line 461, D:/wamp64/www/style/scss/style.scss */
 .close-animatedModal {
   cursor: pointer;
   right: 50px;
@@ -677,7 +769,7 @@ header:after {
   border-radius: 4px;
 }
 
-/* line 460, D:/wamp64/www/style/scss/style.scss */
+/* line 475, D:/wamp64/www/style/scss/style.scss */
 .modal-content {
   top: 30%;
   left: 50%;
@@ -687,7 +779,7 @@ header:after {
   transform: translate(-50%, -50%);
 }
 
-/* line 467, D:/wamp64/www/style/scss/style.scss */
+/* line 482, D:/wamp64/www/style/scss/style.scss */
 .modal-content input {
   width: 100%;
   height: 50px;
@@ -696,17 +788,17 @@ header:after {
   border-bottom: 1px solid #fff;
 }
 
-/* line 474, D:/wamp64/www/style/scss/style.scss */
+/* line 489, D:/wamp64/www/style/scss/style.scss */
 .modal-content input[type=text]::placeholder {
   color: #fff;
 }
 
-/* line 477, D:/wamp64/www/style/scss/style.scss */
+/* line 492, D:/wamp64/www/style/scss/style.scss */
 .modal-content input[type=text]:focus::placeholder {
   color: transparent;
 }
 
-/* line 480, D:/wamp64/www/style/scss/style.scss */
+/* line 495, D:/wamp64/www/style/scss/style.scss */
 .modal-content .searchBtn {
   position: absolute;
   top: 50%;
@@ -714,6 +806,280 @@ header:after {
   right: 20px;
   height: 20px;
   display: inline;
+}
+
+/* line 505, D:/wamp64/www/style/scss/style.scss */
+#magnify {
+  fill: #b18646;
+}
+
+/* line 509, D:/wamp64/www/style/scss/style.scss */
+#footer {
+  border-top: 1px solid #eee;
+  background: #fff;
+  padding: 25px;
+  padding-bottom: 45px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  /*&:before {
+        content: " ";
+        box-shadow: inset 0 11px 8px -10px rgba(102, 146, 146, 0.46);
+        -moz-box-sizing: border-box;
+        width: 100%;
+        height: 20px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }*/
+}
+
+/* line 528, D:/wamp64/www/style/scss/style.scss */
+#footer .boxing {
+  padding: 0 15px;
+  float: left;
+  position: relative;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/* line 536, D:/wamp64/www/style/scss/style.scss */
+#footer .lg-footer {
+  display: inline-block;
+  width: auto;
+}
+
+/* line 539, D:/wamp64/www/style/scss/style.scss */
+#footer .lg-footer img {
+  height: 100px;
+  left: 0;
+  top: 0;
+}
+
+/* line 546, D:/wamp64/www/style/scss/style.scss */
+#footer .seo-footer {
+  max-height: 100px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 550, D:/wamp64/www/style/scss/style.scss */
+#footer .seo-footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 11px;
+  color: #9e9e9e;
+  line-height: 17px;
+  letter-spacing: .04em;
+  text-align: justify;
+}
+
+/* line 561, D:/wamp64/www/style/scss/style.scss */
+#footer .sitemap {
+  display: block;
+  padding: 0 30px;
+}
+
+/* line 565, D:/wamp64/www/style/scss/style.scss */
+#footer .sitemap ul h5 {
+  margin: 0;
+  padding-bottom: 5px;
+  color: #b18646;
+}
+
+/* line 571, D:/wamp64/www/style/scss/style.scss */
+#footer .sitemap ul li {
+  display: inline-block;
+}
+
+/* line 574, D:/wamp64/www/style/scss/style.scss */
+#footer .sitemap ul li a {
+  display: block;
+  font-size: 11.5px;
+  margin-right: 10px;
+  color: #9ac3c3;
+}
+
+/* line 584, D:/wamp64/www/style/scss/style.scss */
+#footer .howto-map {
+  display: block;
+  padding: 0 30px;
+  margin-top: 15px;
+}
+
+/* line 589, D:/wamp64/www/style/scss/style.scss */
+#footer .howto-map ul h5 {
+  margin: 0;
+  padding-bottom: 5px;
+  color: #b18646;
+}
+
+/* line 595, D:/wamp64/www/style/scss/style.scss */
+#footer .howto-map ul li {
+  display: inline-block;
+}
+
+/* line 598, D:/wamp64/www/style/scss/style.scss */
+#footer .howto-map ul li a {
+  display: block;
+  font-size: 11.5px;
+  margin-right: 10px;
+  color: #9ac3c3;
+}
+
+/* line 608, D:/wamp64/www/style/scss/style.scss */
+#footer .payment-logo {
+  display: block;
+  margin-top: 15px;
+}
+
+/* line 612, D:/wamp64/www/style/scss/style.scss */
+#footer .payment-logo ul li {
+  display: inline-block;
+  zoom: 0.7;
+  -moz-transform: scale(0.7);
+  -moz-transform-origin: 0 0;
+  text-indent: -9999px !important;
+  margin-right: 10px;
+}
+
+/* line 622, D:/wamp64/www/style/scss/style.scss */
+#footer .payment-logo ul .bca {
+  background: url(../../assets/images/sprites.png) -82px 0px no-repeat;
+  width: 68px;
+  height: 24px;
+}
+
+/* line 627, D:/wamp64/www/style/scss/style.scss */
+#footer .payment-logo ul .mandiri {
+  background: url(../../assets/images/sprites.png) 0px 0px no-repeat;
+  width: 48px;
+  height: 24px;
+}
+
+/* line 633, D:/wamp64/www/style/scss/style.scss */
+#footer .payment-logo ul .visa {
+  background: url(../../assets/images/sprites.png) -54px -78px no-repeat;
+  width: 50px;
+  height: 24px;
+}
+
+/* line 638, D:/wamp64/www/style/scss/style.scss */
+#footer .payment-logo ul .mastercard {
+  background: url(../../assets/images/sprites.png) -43px -106px no-repeat;
+  width: 40px;
+  height: 24px;
+}
+
+/* line 646, D:/wamp64/www/style/scss/style.scss */
+#footer .social-sprites {
+  display: block;
+}
+
+/* line 649, D:/wamp64/www/style/scss/style.scss */
+#footer .social-sprites ul li {
+  display: inline-block;
+  zoom: 0.7;
+  -moz-transform: scale(0.7);
+  -moz-transform-origin: 0 0;
+  text-indent: -9999px !important;
+  margin-right: 15px;
+}
+
+/* line 659, D:/wamp64/www/style/scss/style.scss */
+#footer .social-sprites ul .facebook {
+  background: url(../../assets/images/social-sprites.png) 0 -168px no-repeat;
+  width: 80px;
+  height: 84px;
+  zoom: 0.3 !important;
+}
+
+/* line 665, D:/wamp64/www/style/scss/style.scss */
+#footer .social-sprites ul .twitter {
+  background: url(../../assets/images/social-sprites.png) -671px -168px no-repeat;
+  width: 80px;
+  height: 84px;
+  zoom: 0.3 !important;
+}
+
+/* line 672, D:/wamp64/www/style/scss/style.scss */
+#footer .social-sprites ul .googlep {
+  background: url(../../assets/images/social-sprites.png) -248px -168px no-repeat;
+  width: 80px;
+  height: 84px;
+  zoom: 0.3 !important;
+}
+
+/* line 678, D:/wamp64/www/style/scss/style.scss */
+#footer .social-sprites ul .instagram {
+  background: url(../../assets/images/social-sprites.png) -420px -168px no-repeat;
+  width: 80px;
+  height: 84px;
+  zoom: 0.3 !important;
+}
+
+/* line 687, D:/wamp64/www/style/scss/style.scss */
+#footer .copyrights {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  display: block;
+  background: #9ac3c3;
+  line-height: 20px;
+}
+
+/* line 697, D:/wamp64/www/style/scss/style.scss */
+#footer .copyrights p {
+  text-align: center;
+  font-size: 12px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+/* line 705, D:/wamp64/www/style/scss/style.scss */
+#footer .fopad {
+  padding: 25px 0;
+}
+
+/* line 710, D:/wamp64/www/style/scss/style.scss */
+.fixedMenu {
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  background: #ffffffe8;
+}
+
+/* line 718, D:/wamp64/www/style/scss/style.scss */
+.fixedMenu .topMenu {
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+  height: 35px;
+  margin: 0 auto;
+}
+
+/* line 725, D:/wamp64/www/style/scss/style.scss */
+.fixedMenu .topMenu .stackMenu a {
+  line-height: 60px;
+}
+
+/* line 729, D:/wamp64/www/style/scss/style.scss */
+.fixedMenu .topMenu .menuPost {
+  line-height: 27px;
+}
+
+/* line 737, D:/wamp64/www/style/scss/style.scss */
+.fixedMenu .topMenu .menuPost ul li a:hover {
+  background: none;
+}
+
+/* line 742, D:/wamp64/www/style/scss/style.scss */
+.fixedMenu .topMenu .menuPost ul li a.joinBtn {
+  line-height: 15px;
 }
 
 /*# sourceMappingURL=../css/style.map */
