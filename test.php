@@ -45,6 +45,12 @@
             </div>
         </div>
 
+        <div id='overlay'></div>
+        <div id='modal'>
+            <div id='content'>No JavaScript Yet!</div>
+            <a href='#' id='close'>close</a>
+        </div>
+
     </div>
 </div>
 

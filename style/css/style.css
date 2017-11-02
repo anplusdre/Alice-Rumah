@@ -202,6 +202,23 @@ button:focus {
   text-align: center;
 }
 
+/* line 204, D:/wamp64/www/style/scss/basic.scss */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+/* line 210, D:/wamp64/www/style/scss/basic.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 214, D:/wamp64/www/style/scss/basic.scss */
+.clearfix {
+  zoom: 1;
+}
+
 /* line 2, D:/wamp64/www/style/scss/style.scss */
 html,
 body {
@@ -1087,6 +1104,44 @@ header:after {
 /* line 742, D:/wamp64/www/style/scss/style.scss */
 .fixedMenu .topMenu .menuPost ul li a.joinBtn {
   line-height: 15px;
+}
+
+/* line 752, D:/wamp64/www/style/scss/style.scss */
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 763, D:/wamp64/www/style/scss/style.scss */
+#modal {
+  position: absolute;
+  border-radius: 14px;
+  margin: 0 auto;
+  width: 650px;
+}
+
+/* line 769, D:/wamp64/www/style/scss/style.scss */
+#modal #content {
+  border-radius: 8px;
+  background: #fff;
+  padding: 20px;
+}
+
+/* line 775, D:/wamp64/www/style/scss/style.scss */
+#modal #close {
+  position: absolute;
+  background: url(../../assets/icons/cancel.svg) 0 0 no-repeat;
+  width: 15px;
+  display: block;
+  text-indent: -9999px;
+  top: 15px;
+  right: 15px;
 }
 
 /*# sourceMappingURL=../css/style.map */

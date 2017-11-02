@@ -10,6 +10,7 @@
     <meta name="AndrePR" content="SitePoint">
 
     <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="style/css/backend.css">
     <link rel="stylesheet" href="plugins/slick.css">
     <link rel="stylesheet" href="plugins/animate.min.css">
     <link rel="stylesheet" href="plugins/normalize.min.css">
