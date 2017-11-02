@@ -33,7 +33,7 @@
                 <div class="info">
                     <div id="name">{{product.name}}</div>
                     <div class="button medium">
-                        <a href="#" class="moreBtn">MORE</a>
+                        <a href="#talentData" class="moreBtn">MORE</a>
                     </div>
                 </div>
 
@@ -43,12 +43,16 @@
                     <a href="#" class="boxedMedium">{{product.skills[2]}}</a>
                 </div>
             </div>
-        </div>
 
-        <div id='overlay'></div>
-        <div id='modal'>
-            <div id='content'>No JavaScript Yet!</div>
-            <a href='#' id='close'>close</a>
+            <div class="modalData" id="talentData">
+                <div class="modalOverlay"></div>
+                <div class="contentData">
+                    <a href="#" id="closeData">X</a>
+
+                </div>
+            </div>
+
+
         </div>
 
     </div>

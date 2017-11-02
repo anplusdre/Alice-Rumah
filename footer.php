@@ -76,7 +76,6 @@
 <script src="js/jquery.js"></script>
 <script src="js/app.js"></script>
 <script src="plugins/slick.js"></script>
-<script src="plugins/animatedModal.js"></script>
 </body>
 
 </html>
