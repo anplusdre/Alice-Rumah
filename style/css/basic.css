@@ -155,66 +155,71 @@ button:focus {
 }
 
 /* line 163, D:/wamp64/www/style/scss/basic.scss */
+.gr-2 {
+  width: 50%;
+}
+
+/* line 167, D:/wamp64/www/style/scss/basic.scss */
 .gr-2-5 {
   width: 55%;
   min-height: 1px;
 }
 
-/* line 168, D:/wamp64/www/style/scss/basic.scss */
+/* line 172, D:/wamp64/www/style/scss/basic.scss */
 .gr-2-4 {
   width: 40%;
 }
 
-/* line 172, D:/wamp64/www/style/scss/basic.scss */
+/* line 176, D:/wamp64/www/style/scss/basic.scss */
 .gr-3 {
   width: 33%;
   min-height: 1px;
 }
 
-/* line 178, D:/wamp64/www/style/scss/basic.scss */
+/* line 182, D:/wamp64/www/style/scss/basic.scss */
 .gr-3-5 {
   width: 30%;
   min-height: 1px;
 }
 
-/* line 183, D:/wamp64/www/style/scss/basic.scss */
+/* line 187, D:/wamp64/www/style/scss/basic.scss */
 .gr-4 {
   width: 25%;
   min-height: 1px;
 }
 
-/* line 188, D:/wamp64/www/style/scss/basic.scss */
+/* line 192, D:/wamp64/www/style/scss/basic.scss */
 .gr-5 {
   width: 20%;
   min-height: 1px;
 }
 
-/* line 193, D:/wamp64/www/style/scss/basic.scss */
+/* line 197, D:/wamp64/www/style/scss/basic.scss */
 .gr-10 {
   width: 10%;
   min-height: 1px;
 }
 
-/* line 198, D:/wamp64/www/style/scss/basic.scss */
+/* line 202, D:/wamp64/www/style/scss/basic.scss */
 .talent-container {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 204, D:/wamp64/www/style/scss/basic.scss */
+/* line 208, D:/wamp64/www/style/scss/basic.scss */
 .clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 210, D:/wamp64/www/style/scss/basic.scss */
+/* line 214, D:/wamp64/www/style/scss/basic.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 214, D:/wamp64/www/style/scss/basic.scss */
+/* line 218, D:/wamp64/www/style/scss/basic.scss */
 .clearfix {
   zoom: 1;
 }
