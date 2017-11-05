@@ -70,12 +70,23 @@
         <p>copyright ® 2017 nusatrip. all rights reserved.</p>
     </div>
 </footer>
+<script src="js/angular.js"></script>
+<script src="js/jquery-3.2.1.min.js">
 
 
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="js/jquery.js"></script>
+</script>
+
+<script src="js/jquery.js">
+    $.noConflict();
+
+</script>
 <script src="js/app.js"></script>
-<script src="plugins/slick.js"></script>
+<script src="plugins/slick.js">
+
+
+</script>
+<script src="js/angular-route.min.js"></script>
+<!--<script src="js/app.js"></script>-->
 </body>
 
 </html>

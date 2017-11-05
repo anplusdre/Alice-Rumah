@@ -10,8 +10,8 @@
     <div class="row left">
 
         <!-- START DISPLAY -->
-        <div ng-controller="AgentController as agent" class="talent-container">
-            <div ng-repeat="product in agent.products" class="card boxed" ng-class=" {{product.indexing}}">
+        <div ng-controller="AgentController as alice" class="talent-container">
+            <div ng-repeat="product in alice.products" class="card boxed" ng-class=" {{product.indexing}}">
                 <div class="actionlist">
                     <div id="id"><span>{{product.id}}</span></div>
                     <div class="addBtn">
@@ -44,7 +44,6 @@
                 </div>
             </div>
 
-
             <div class="modalData" id="talentData">
                 <div class="modalOverlay"></div>
                 <div class="contentData">
@@ -60,7 +59,6 @@
                     <a href="#" id="closeData">X</a>
                 </div>
             </div>
-
 
         </div>
 

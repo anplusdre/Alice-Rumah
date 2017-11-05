@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html ng-app="agent" lang="en">
+<html ng-app="alice" lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -10,11 +10,10 @@
     <meta name="AndrePR" content="SitePoint">
 
     <link rel="stylesheet" href="style/css/style.css">
-    <link rel="stylesheet" href="style/css/backend.css">
     <link rel="stylesheet" href="plugins/slick.css">
-    <link rel="stylesheet" href="plugins/animate.min.css">
-    <link rel="stylesheet" href="plugins/normalize.min.css">
-    <script src="js/angular.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="plugins/animate.min.css"><script>
+    document.write('<base href="' + document.location + '" />');
+</script>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->

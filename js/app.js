@@ -1,10 +1,19 @@
 (function () {
 
-    var app = angular.module('agent', []);
+    var alice = angular.module('alice', ['ngRoute']);
 
-    app.controller('AgentController', function () {
+    alice.config(function ($routeProvider) {
+        /*$routeProvider.when("/view/:id", {
+            templateUrl: "single-view.php",
+            controller: "AgentController",
+            controllerAs: "alice"
+        });*/
+    });
+
+    alice.controller('AgentController', function () {
 
         this.products = talents;
+        this.message = "Routing Works!";
     });
 
 

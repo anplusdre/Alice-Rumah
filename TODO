@@ -3,3 +3,21 @@
 4. CREATE TEMPLATE UNTUK PROFILE TALENT (SINGLE-PAGE)
 5. CREATE TALENT-PAGE MASUKKAN NG-INCLUDE DARI SINGLE-PAGE-TALENT
 6. ISI DATA SESUA NEW.JS
+
+
+
+<div class="modalData" id="talentData">
+    <div class="modalOverlay"></div>
+    <div class="contentData">
+        <div class="dataContainer">
+            <div class="gr-2 gallery">
+                <div id="gallery-img">
+                    <img src="">
+                </div>
+            </div>
+            <div class="gr-2 biodata">
+            </div>
+        </div>
+        <a href="#" id="closeData">X</a>
+    </div>
+</div>
