@@ -14,7 +14,7 @@ html {
   height: 100% !important;
 }
 
-/* line 47, D:/wamp64/www/style/scss/basic.scss */
+/* line 45, D:/wamp64/www/style/scss/basic.scss */
 ol,
 ul {
   padding: 0;
@@ -22,29 +22,29 @@ ul {
   list-style: none;
 }
 
-/* line 54, D:/wamp64/www/style/scss/basic.scss */
+/* line 52, D:/wamp64/www/style/scss/basic.scss */
 li {
   display: inline-block;
 }
 
-/* line 58, D:/wamp64/www/style/scss/basic.scss */
+/* line 56, D:/wamp64/www/style/scss/basic.scss */
 a {
   color: #989898;
   text-decoration: none;
 }
 
-/* line 63, D:/wamp64/www/style/scss/basic.scss */
+/* line 61, D:/wamp64/www/style/scss/basic.scss */
 input {
   border: 0;
 }
 
-/* line 65, D:/wamp64/www/style/scss/basic.scss */
+/* line 63, D:/wamp64/www/style/scss/basic.scss */
 input:focus {
   border: 0;
   outline: 0;
 }
 
-/* line 71, D:/wamp64/www/style/scss/basic.scss */
+/* line 69, D:/wamp64/www/style/scss/basic.scss */
 *,
 *:before,
 *:after {
@@ -53,40 +53,40 @@ input:focus {
   box-sizing: border-box;
 }
 
-/* line 79, D:/wamp64/www/style/scss/basic.scss */
+/* line 77, D:/wamp64/www/style/scss/basic.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 84, D:/wamp64/www/style/scss/basic.scss */
+/* line 82, D:/wamp64/www/style/scss/basic.scss */
 button {
   border: 0;
   cursor: pointer;
 }
 
-/* line 87, D:/wamp64/www/style/scss/basic.scss */
+/* line 85, D:/wamp64/www/style/scss/basic.scss */
 button:focus {
   outline: none;
 }
 
-/* line 92, D:/wamp64/www/style/scss/basic.scss */
+/* line 90, D:/wamp64/www/style/scss/basic.scss */
 ::-webkit-scrollbar-track {
   background-color: #ddd;
 }
 
-/* line 96, D:/wamp64/www/style/scss/basic.scss */
+/* line 94, D:/wamp64/www/style/scss/basic.scss */
 ::-webkit-scrollbar {
   width: 4px;
   background-color: #F5F5F5;
 }
 
-/* line 101, D:/wamp64/www/style/scss/basic.scss */
+/* line 99, D:/wamp64/www/style/scss/basic.scss */
 ::-webkit-scrollbar-thumb {
   background-color: #9ac3c3;
 }
 
-/* line 106, D:/wamp64/www/style/scss/basic.scss */
+/* line 104, D:/wamp64/www/style/scss/basic.scss */
 .button {
   display: inline-block;
   float: right;
@@ -94,132 +94,132 @@ button:focus {
   top: -15px;
 }
 
-/* line 113, D:/wamp64/www/style/scss/basic.scss */
+/* line 111, D:/wamp64/www/style/scss/basic.scss */
 .rl-container {
   position: relative;
 }
 
-/* line 117, D:/wamp64/www/style/scss/basic.scss */
+/* line 115, D:/wamp64/www/style/scss/basic.scss */
 .boxed {
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
   -moz-box-sizing: border-box;
 }
 
-/* line 123, D:/wamp64/www/style/scss/basic.scss */
+/* line 121, D:/wamp64/www/style/scss/basic.scss */
 .boxedSmall {
   box-shadow: 0 1px 1px #66abab;
   -moz-box-sizing: border-box;
 }
 
-/* line 128, D:/wamp64/www/style/scss/basic.scss */
+/* line 126, D:/wamp64/www/style/scss/basic.scss */
 .boxed.fixed {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.19);
   -moz-box-sizing: border-box;
 }
 
-/* line 133, D:/wamp64/www/style/scss/basic.scss */
+/* line 131, D:/wamp64/www/style/scss/basic.scss */
 .clear {
   clear: both;
 }
 
-/* line 137, D:/wamp64/www/style/scss/basic.scss */
+/* line 135, D:/wamp64/www/style/scss/basic.scss */
 .slow {
   transition: all .2s ease-in-out;
 }
 
-/* line 141, D:/wamp64/www/style/scss/basic.scss */
+/* line 139, D:/wamp64/www/style/scss/basic.scss */
 .row {
   width: 1124px;
   margin: 0 auto;
 }
 
-/* line 146, D:/wamp64/www/style/scss/basic.scss */
+/* line 144, D:/wamp64/www/style/scss/basic.scss */
 .center {
   text-align: center;
 }
 
-/* line 150, D:/wamp64/www/style/scss/basic.scss */
+/* line 148, D:/wamp64/www/style/scss/basic.scss */
 .left {
   text-align: left;
 }
 
-/* line 154, D:/wamp64/www/style/scss/basic.scss */
+/* line 152, D:/wamp64/www/style/scss/basic.scss */
 .spacer.huge {
   height: 20vh;
 }
 
-/* line 158, D:/wamp64/www/style/scss/basic.scss */
+/* line 156, D:/wamp64/www/style/scss/basic.scss */
 .spacer.big {
   height: 10vh;
   position: relative;
 }
 
-/* line 163, D:/wamp64/www/style/scss/basic.scss */
+/* line 161, D:/wamp64/www/style/scss/basic.scss */
 .gr-2 {
   width: 50%;
 }
 
-/* line 167, D:/wamp64/www/style/scss/basic.scss */
+/* line 165, D:/wamp64/www/style/scss/basic.scss */
 .gr-2-5 {
   width: 55%;
   min-height: 1px;
 }
 
-/* line 172, D:/wamp64/www/style/scss/basic.scss */
+/* line 170, D:/wamp64/www/style/scss/basic.scss */
 .gr-2-4 {
   width: 40%;
 }
 
-/* line 176, D:/wamp64/www/style/scss/basic.scss */
+/* line 174, D:/wamp64/www/style/scss/basic.scss */
 .gr-3 {
   width: 33%;
   min-height: 1px;
 }
 
-/* line 182, D:/wamp64/www/style/scss/basic.scss */
+/* line 180, D:/wamp64/www/style/scss/basic.scss */
 .gr-3-5 {
   width: 30%;
   min-height: 1px;
 }
 
-/* line 187, D:/wamp64/www/style/scss/basic.scss */
+/* line 185, D:/wamp64/www/style/scss/basic.scss */
 .gr-4 {
   width: 25%;
   min-height: 1px;
 }
 
-/* line 192, D:/wamp64/www/style/scss/basic.scss */
+/* line 190, D:/wamp64/www/style/scss/basic.scss */
 .gr-5 {
   width: 20%;
   min-height: 1px;
 }
 
-/* line 197, D:/wamp64/www/style/scss/basic.scss */
+/* line 195, D:/wamp64/www/style/scss/basic.scss */
 .gr-10 {
   width: 10%;
   min-height: 1px;
 }
 
-/* line 202, D:/wamp64/www/style/scss/basic.scss */
+/* line 200, D:/wamp64/www/style/scss/basic.scss */
 .talent-container {
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 208, D:/wamp64/www/style/scss/basic.scss */
+/* line 206, D:/wamp64/www/style/scss/basic.scss */
 .clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
 }
 
-/* line 214, D:/wamp64/www/style/scss/basic.scss */
+/* line 212, D:/wamp64/www/style/scss/basic.scss */
 .clearfix:after {
   clear: both;
 }
 
-/* line 218, D:/wamp64/www/style/scss/basic.scss */
+/* line 216, D:/wamp64/www/style/scss/basic.scss */
 .clearfix {
   zoom: 1;
 }
@@ -507,7 +507,7 @@ header:after {
   display: block;
   font-size: 12px;
   font-weight: 500;
-  background: #9ac3c3;
+  background: #0089e1;
   color: #fff;
   border-radius: 4px;
   font-family: "Ubuntu", sans-serif;
@@ -519,9 +519,10 @@ header:after {
 .grid .card .actionlist {
   position: relative;
   height: 25px;
+  overflow: hidden;
 }
 
-/* line 240, D:/wamp64/www/style/scss/style.scss */
+/* line 241, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist .addBtn {
   display: inline;
   position: absolute;
@@ -529,12 +530,12 @@ header:after {
   line-height: 31px;
 }
 
-/* line 245, D:/wamp64/www/style/scss/style.scss */
+/* line 246, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist .addBtn img {
   width: 15px;
 }
 
-/* line 249, D:/wamp64/www/style/scss/style.scss */
+/* line 250, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist .loveBtn {
   display: inline;
   position: absolute;
@@ -542,25 +543,25 @@ header:after {
   line-height: 31px;
 }
 
-/* line 254, D:/wamp64/www/style/scss/style.scss */
+/* line 255, D:/wamp64/www/style/scss/style.scss */
 .grid .card .actionlist .loveBtn img {
   width: 15px;
 }
 
-/* line 262, D:/wamp64/www/style/scss/style.scss */
+/* line 263, D:/wamp64/www/style/scss/style.scss */
 .grid.display {
   min-height: 100%;
   display: flex;
 }
 
-/* line 267, D:/wamp64/www/style/scss/style.scss */
+/* line 268, D:/wamp64/www/style/scss/style.scss */
 #id {
   display: inline;
   float: left;
   padding-left: 12px;
 }
 
-/* line 271, D:/wamp64/www/style/scss/style.scss */
+/* line 272, D:/wamp64/www/style/scss/style.scss */
 #id span {
   font-size: 12px;
   font-weight: 600;
@@ -568,12 +569,12 @@ header:after {
   color: #999;
 }
 
-/* line 276, D:/wamp64/www/style/scss/style.scss */
+/* line 277, D:/wamp64/www/style/scss/style.scss */
 #id span:before {
   content: "#";
 }
 
-/* line 282, D:/wamp64/www/style/scss/style.scss */
+/* line 283, D:/wamp64/www/style/scss/style.scss */
 .info {
   position: relative;
   padding: 0 13px;
@@ -582,7 +583,7 @@ header:after {
   margin-bottom: 7px;
 }
 
-/* line 288, D:/wamp64/www/style/scss/style.scss */
+/* line 289, D:/wamp64/www/style/scss/style.scss */
 .info #name {
   position: relative;
   float: left;
@@ -593,7 +594,7 @@ header:after {
   font-weight: 600;
 }
 
-/* line 299, D:/wamp64/www/style/scss/style.scss */
+/* line 300, D:/wamp64/www/style/scss/style.scss */
 .skills-thumb {
   padding-bottom: 12px;
   width: 80%;
@@ -603,7 +604,7 @@ header:after {
   border-top: 1px solid #e2e2e2;
 }
 
-/* line 306, D:/wamp64/www/style/scss/style.scss */
+/* line 307, D:/wamp64/www/style/scss/style.scss */
 .skills-thumb .boxedMedium {
   display: inline-block;
   font-size: 12px;
@@ -613,12 +614,12 @@ header:after {
   transition: all 0.2s ease-in-out;
 }
 
-/* line 313, D:/wamp64/www/style/scss/style.scss */
+/* line 314, D:/wamp64/www/style/scss/style.scss */
 .skills-thumb .boxedMedium:hover {
   color: #b18646;
 }
 
-/* line 319, D:/wamp64/www/style/scss/style.scss */
+/* line 320, D:/wamp64/www/style/scss/style.scss */
 .key-form {
   width: 400px;
   margin: 0 auto;
@@ -634,12 +635,12 @@ header:after {
   border-image-slice: 1;
 }
 
-/* line 332, D:/wamp64/www/style/scss/style.scss */
+/* line 333, D:/wamp64/www/style/scss/style.scss */
 .key-form form {
   position: relative;
 }
 
-/* line 334, D:/wamp64/www/style/scss/style.scss */
+/* line 335, D:/wamp64/www/style/scss/style.scss */
 .key-form form input[type=text] {
   background: #eee;
   width: 225px;
@@ -650,7 +651,7 @@ header:after {
   height: 21px;
 }
 
-/* line 343, D:/wamp64/www/style/scss/style.scss */
+/* line 344, D:/wamp64/www/style/scss/style.scss */
 .key-form form span {
   margin-right: 30px;
   font-size: 12px;
@@ -658,7 +659,7 @@ header:after {
   color: #888;
 }
 
-/* line 349, D:/wamp64/www/style/scss/style.scss */
+/* line 350, D:/wamp64/www/style/scss/style.scss */
 .key-form form .keyBtn {
   border: 0;
   outline: none;
@@ -668,7 +669,7 @@ header:after {
   top: 0;
 }
 
-/* line 361, D:/wamp64/www/style/scss/style.scss */
+/* line 362, D:/wamp64/www/style/scss/style.scss */
 .logo {
   text-align: center;
   position: relative;
@@ -676,13 +677,13 @@ header:after {
   margin: 0 auto;
 }
 
-/* line 367, D:/wamp64/www/style/scss/style.scss */
+/* line 368, D:/wamp64/www/style/scss/style.scss */
 .logo a img {
   height: 100px;
   transform: translateZ(40px);
 }
 
-/* line 375, D:/wamp64/www/style/scss/style.scss */
+/* line 376, D:/wamp64/www/style/scss/style.scss */
 .logo-ico-fixed {
   position: absolute;
   top: 5px;
@@ -693,12 +694,12 @@ header:after {
   transform: translate(-50%, 0);
 }
 
-/* line 384, D:/wamp64/www/style/scss/style.scss */
+/* line 385, D:/wamp64/www/style/scss/style.scss */
 .logo-ico-fixed img {
   height: 25px;
 }
 
-/* line 389, D:/wamp64/www/style/scss/style.scss */
+/* line 390, D:/wamp64/www/style/scss/style.scss */
 .timeSlide {
   top: 0;
   position: absolute;
@@ -706,7 +707,7 @@ header:after {
   height: 4px;
 }
 
-/* line 394, D:/wamp64/www/style/scss/style.scss */
+/* line 395, D:/wamp64/www/style/scss/style.scss */
 .timeSlide li {
   width: 30%;
   height: 4px;
@@ -715,7 +716,7 @@ header:after {
   margin: 0 3px;
 }
 
-/* line 400, D:/wamp64/www/style/scss/style.scss */
+/* line 401, D:/wamp64/www/style/scss/style.scss */
 .timeSlide li button {
   height: 4px;
   position: absolute;
@@ -724,31 +725,31 @@ header:after {
   width: 100%;
   left: 0;
   font-size: 0;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 411, D:/wamp64/www/style/scss/style.scss */
+/* line 412, D:/wamp64/www/style/scss/style.scss */
 .timeSlide .slick-active button {
   background: #fff !important;
 }
 
-/* line 416, D:/wamp64/www/style/scss/style.scss */
+/* line 417, D:/wamp64/www/style/scss/style.scss */
 .media div:nth-child(2),
 .media div:nth-child(3) {
   display: none;
 }
 
-/* line 421, D:/wamp64/www/style/scss/style.scss */
+/* line 422, D:/wamp64/www/style/scss/style.scss */
 .media:hover:nth-child(2) {
   display: block;
 }
 
-/* line 425, D:/wamp64/www/style/scss/style.scss */
+/* line 426, D:/wamp64/www/style/scss/style.scss */
 .slick-slide img {
   display: inline-block;
 }
 
-/* line 430, D:/wamp64/www/style/scss/style.scss */
+/* line 431, D:/wamp64/www/style/scss/style.scss */
 #modalSearch {
   position: absolute;
   right: 0;
@@ -765,12 +766,12 @@ header:after {
   z-index: 2;
 }
 
-/* line 444, D:/wamp64/www/style/scss/style.scss */
+/* line 445, D:/wamp64/www/style/scss/style.scss */
 #modalSearch span {
   padding-right: 9px;
 }
 
-/* line 447, D:/wamp64/www/style/scss/style.scss */
+/* line 448, D:/wamp64/www/style/scss/style.scss */
 #modalSearch:after {
   content: " ";
   background: url(../../assets/icons/magnifying-glass.svg) no-repeat;
@@ -784,7 +785,7 @@ header:after {
   position: absolute;
 }
 
-/* line 461, D:/wamp64/www/style/scss/style.scss */
+/* line 462, D:/wamp64/www/style/scss/style.scss */
 .close-animatedModal {
   cursor: pointer;
   right: 50px;
@@ -798,7 +799,7 @@ header:after {
   border-radius: 4px;
 }
 
-/* line 475, D:/wamp64/www/style/scss/style.scss */
+/* line 476, D:/wamp64/www/style/scss/style.scss */
 .modal-content {
   top: 30%;
   left: 50%;
@@ -808,7 +809,7 @@ header:after {
   transform: translate(-50%, -50%);
 }
 
-/* line 482, D:/wamp64/www/style/scss/style.scss */
+/* line 483, D:/wamp64/www/style/scss/style.scss */
 .modal-content input {
   width: 100%;
   height: 50px;
@@ -817,17 +818,17 @@ header:after {
   border-bottom: 1px solid #fff;
 }
 
-/* line 489, D:/wamp64/www/style/scss/style.scss */
+/* line 490, D:/wamp64/www/style/scss/style.scss */
 .modal-content input[type=text]::placeholder {
   color: #fff;
 }
 
-/* line 492, D:/wamp64/www/style/scss/style.scss */
+/* line 493, D:/wamp64/www/style/scss/style.scss */
 .modal-content input[type=text]:focus::placeholder {
-  color: transparent;
+  color: #989898;
 }
 
-/* line 495, D:/wamp64/www/style/scss/style.scss */
+/* line 496, D:/wamp64/www/style/scss/style.scss */
 .modal-content .searchBtn {
   position: absolute;
   top: 50%;
@@ -837,12 +838,12 @@ header:after {
   display: inline;
 }
 
-/* line 505, D:/wamp64/www/style/scss/style.scss */
+/* line 506, D:/wamp64/www/style/scss/style.scss */
 #magnify {
   fill: #b18646;
 }
 
-/* line 509, D:/wamp64/www/style/scss/style.scss */
+/* line 510, D:/wamp64/www/style/scss/style.scss */
 #footer {
   border-top: 1px solid #eee;
   background: #fff;
@@ -863,7 +864,7 @@ header:after {
     }*/
 }
 
-/* line 528, D:/wamp64/www/style/scss/style.scss */
+/* line 529, D:/wamp64/www/style/scss/style.scss */
 #footer .boxing {
   padding: 0 15px;
   float: left;
@@ -872,27 +873,27 @@ header:after {
   margin-right: -15px;
 }
 
-/* line 536, D:/wamp64/www/style/scss/style.scss */
+/* line 537, D:/wamp64/www/style/scss/style.scss */
 #footer .lg-footer {
   display: inline-block;
   width: auto;
 }
 
-/* line 539, D:/wamp64/www/style/scss/style.scss */
+/* line 540, D:/wamp64/www/style/scss/style.scss */
 #footer .lg-footer img {
   height: 100px;
   left: 0;
   top: 0;
 }
 
-/* line 546, D:/wamp64/www/style/scss/style.scss */
+/* line 547, D:/wamp64/www/style/scss/style.scss */
 #footer .seo-footer {
   max-height: 100px;
   overflow: hidden;
   position: relative;
 }
 
-/* line 550, D:/wamp64/www/style/scss/style.scss */
+/* line 551, D:/wamp64/www/style/scss/style.scss */
 #footer .seo-footer p {
   margin-top: 0;
   margin-bottom: 0;
@@ -903,25 +904,25 @@ header:after {
   text-align: justify;
 }
 
-/* line 561, D:/wamp64/www/style/scss/style.scss */
+/* line 562, D:/wamp64/www/style/scss/style.scss */
 #footer .sitemap {
   display: block;
   padding: 0 30px;
 }
 
-/* line 565, D:/wamp64/www/style/scss/style.scss */
+/* line 566, D:/wamp64/www/style/scss/style.scss */
 #footer .sitemap ul h5 {
   margin: 0;
   padding-bottom: 5px;
   color: #b18646;
 }
 
-/* line 571, D:/wamp64/www/style/scss/style.scss */
+/* line 572, D:/wamp64/www/style/scss/style.scss */
 #footer .sitemap ul li {
   display: inline-block;
 }
 
-/* line 574, D:/wamp64/www/style/scss/style.scss */
+/* line 575, D:/wamp64/www/style/scss/style.scss */
 #footer .sitemap ul li a {
   display: block;
   font-size: 11.5px;
@@ -929,26 +930,26 @@ header:after {
   color: #9ac3c3;
 }
 
-/* line 584, D:/wamp64/www/style/scss/style.scss */
+/* line 585, D:/wamp64/www/style/scss/style.scss */
 #footer .howto-map {
   display: block;
   padding: 0 30px;
   margin-top: 15px;
 }
 
-/* line 589, D:/wamp64/www/style/scss/style.scss */
+/* line 590, D:/wamp64/www/style/scss/style.scss */
 #footer .howto-map ul h5 {
   margin: 0;
   padding-bottom: 5px;
   color: #b18646;
 }
 
-/* line 595, D:/wamp64/www/style/scss/style.scss */
+/* line 596, D:/wamp64/www/style/scss/style.scss */
 #footer .howto-map ul li {
   display: inline-block;
 }
 
-/* line 598, D:/wamp64/www/style/scss/style.scss */
+/* line 599, D:/wamp64/www/style/scss/style.scss */
 #footer .howto-map ul li a {
   display: block;
   font-size: 11.5px;
@@ -956,13 +957,13 @@ header:after {
   color: #9ac3c3;
 }
 
-/* line 608, D:/wamp64/www/style/scss/style.scss */
+/* line 609, D:/wamp64/www/style/scss/style.scss */
 #footer .payment-logo {
   display: block;
   margin-top: 15px;
 }
 
-/* line 612, D:/wamp64/www/style/scss/style.scss */
+/* line 613, D:/wamp64/www/style/scss/style.scss */
 #footer .payment-logo ul li {
   display: inline-block;
   zoom: 0.7;
@@ -972,40 +973,40 @@ header:after {
   margin-right: 10px;
 }
 
-/* line 622, D:/wamp64/www/style/scss/style.scss */
+/* line 623, D:/wamp64/www/style/scss/style.scss */
 #footer .payment-logo ul .bca {
   background: url(../../assets/images/sprites.png) -82px 0px no-repeat;
   width: 68px;
   height: 24px;
 }
 
-/* line 627, D:/wamp64/www/style/scss/style.scss */
+/* line 628, D:/wamp64/www/style/scss/style.scss */
 #footer .payment-logo ul .mandiri {
   background: url(../../assets/images/sprites.png) 0px 0px no-repeat;
   width: 48px;
   height: 24px;
 }
 
-/* line 633, D:/wamp64/www/style/scss/style.scss */
+/* line 634, D:/wamp64/www/style/scss/style.scss */
 #footer .payment-logo ul .visa {
   background: url(../../assets/images/sprites.png) -54px -78px no-repeat;
   width: 50px;
   height: 24px;
 }
 
-/* line 638, D:/wamp64/www/style/scss/style.scss */
+/* line 639, D:/wamp64/www/style/scss/style.scss */
 #footer .payment-logo ul .mastercard {
   background: url(../../assets/images/sprites.png) -43px -106px no-repeat;
   width: 40px;
   height: 24px;
 }
 
-/* line 646, D:/wamp64/www/style/scss/style.scss */
+/* line 647, D:/wamp64/www/style/scss/style.scss */
 #footer .social-sprites {
   display: block;
 }
 
-/* line 649, D:/wamp64/www/style/scss/style.scss */
+/* line 650, D:/wamp64/www/style/scss/style.scss */
 #footer .social-sprites ul li {
   display: inline-block;
   zoom: 0.7;
@@ -1015,7 +1016,7 @@ header:after {
   margin-right: 15px;
 }
 
-/* line 659, D:/wamp64/www/style/scss/style.scss */
+/* line 660, D:/wamp64/www/style/scss/style.scss */
 #footer .social-sprites ul .facebook {
   background: url(../../assets/images/social-sprites.png) 0 -168px no-repeat;
   width: 80px;
@@ -1023,7 +1024,7 @@ header:after {
   zoom: 0.3 !important;
 }
 
-/* line 665, D:/wamp64/www/style/scss/style.scss */
+/* line 666, D:/wamp64/www/style/scss/style.scss */
 #footer .social-sprites ul .twitter {
   background: url(../../assets/images/social-sprites.png) -671px -168px no-repeat;
   width: 80px;
@@ -1031,7 +1032,7 @@ header:after {
   zoom: 0.3 !important;
 }
 
-/* line 672, D:/wamp64/www/style/scss/style.scss */
+/* line 673, D:/wamp64/www/style/scss/style.scss */
 #footer .social-sprites ul .googlep {
   background: url(../../assets/images/social-sprites.png) -248px -168px no-repeat;
   width: 80px;
@@ -1039,7 +1040,7 @@ header:after {
   zoom: 0.3 !important;
 }
 
-/* line 678, D:/wamp64/www/style/scss/style.scss */
+/* line 679, D:/wamp64/www/style/scss/style.scss */
 #footer .social-sprites ul .instagram {
   background: url(../../assets/images/social-sprites.png) -420px -168px no-repeat;
   width: 80px;
@@ -1047,7 +1048,7 @@ header:after {
   zoom: 0.3 !important;
 }
 
-/* line 687, D:/wamp64/www/style/scss/style.scss */
+/* line 688, D:/wamp64/www/style/scss/style.scss */
 #footer .copyrights {
   position: absolute;
   bottom: 0;
@@ -1059,7 +1060,7 @@ header:after {
   line-height: 20px;
 }
 
-/* line 697, D:/wamp64/www/style/scss/style.scss */
+/* line 698, D:/wamp64/www/style/scss/style.scss */
 #footer .copyrights p {
   text-align: center;
   font-size: 12px;
@@ -1067,12 +1068,12 @@ header:after {
   color: #fff;
 }
 
-/* line 705, D:/wamp64/www/style/scss/style.scss */
+/* line 706, D:/wamp64/www/style/scss/style.scss */
 #footer .fopad {
   padding: 25px 0;
 }
 
-/* line 710, D:/wamp64/www/style/scss/style.scss */
+/* line 711, D:/wamp64/www/style/scss/style.scss */
 .fixedMenu {
   display: none;
   position: fixed;
@@ -1082,7 +1083,7 @@ header:after {
   background: #ffffffe8;
 }
 
-/* line 718, D:/wamp64/www/style/scss/style.scss */
+/* line 719, D:/wamp64/www/style/scss/style.scss */
 .fixedMenu .topMenu {
   padding-top: 0;
   padding-bottom: 0;
@@ -1091,27 +1092,27 @@ header:after {
   margin: 0 auto;
 }
 
-/* line 725, D:/wamp64/www/style/scss/style.scss */
+/* line 726, D:/wamp64/www/style/scss/style.scss */
 .fixedMenu .topMenu .stackMenu a {
   line-height: 60px;
 }
 
-/* line 729, D:/wamp64/www/style/scss/style.scss */
+/* line 730, D:/wamp64/www/style/scss/style.scss */
 .fixedMenu .topMenu .menuPost {
   line-height: 27px;
 }
 
-/* line 737, D:/wamp64/www/style/scss/style.scss */
+/* line 738, D:/wamp64/www/style/scss/style.scss */
 .fixedMenu .topMenu .menuPost ul li a:hover {
   background: none;
 }
 
-/* line 742, D:/wamp64/www/style/scss/style.scss */
+/* line 743, D:/wamp64/www/style/scss/style.scss */
 .fixedMenu .topMenu .menuPost ul li a.joinBtn {
   line-height: 15px;
 }
 
-/* line 751, D:/wamp64/www/style/scss/style.scss */
+/* line 752, D:/wamp64/www/style/scss/style.scss */
 .modalData {
   opacity: 0;
   width: 100%;
@@ -1124,7 +1125,7 @@ header:after {
   z-index: -99;
 }
 
-/* line 762, D:/wamp64/www/style/scss/style.scss */
+/* line 763, D:/wamp64/www/style/scss/style.scss */
 .modalData .modalOverlay {
   width: 100%;
   height: 100%;
@@ -1133,7 +1134,7 @@ header:after {
   z-index: -99;
 }
 
-/* line 770, D:/wamp64/www/style/scss/style.scss */
+/* line 771, D:/wamp64/www/style/scss/style.scss */
 .modalData .contentData {
   position: absolute;
   top: 50%;
@@ -1145,7 +1146,7 @@ header:after {
   height: 70vh;
 }
 
-/* line 780, D:/wamp64/www/style/scss/style.scss */
+/* line 781, D:/wamp64/www/style/scss/style.scss */
 .modalData .contentData #closeData {
   top: 12px;
   right: 12px;
@@ -1158,7 +1159,7 @@ header:after {
   border-radius: 50%;
 }
 
-/* line 794, D:/wamp64/www/style/scss/style.scss */
+/* line 795, D:/wamp64/www/style/scss/style.scss */
 .tabCard {
   display: none;
   flex-direction: row;
@@ -1167,27 +1168,27 @@ header:after {
   width: 100%;
 }
 
-/* line 802, D:/wamp64/www/style/scss/style.scss */
+/* line 803, D:/wamp64/www/style/scss/style.scss */
 .tabCard .tabHeader {
   width: 50px;
   height: 50px;
   background-color: #47bc8b;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 810, D:/wamp64/www/style/scss/style.scss */
+/* line 811, D:/wamp64/www/style/scss/style.scss */
 .tabCard .active {
   position: relative;
   z-index: 50;
   width: 50px;
   height: 50px;
   background-color: #259162;
-  -webkit-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-/* line 821, D:/wamp64/www/style/scss/style.scss */
+/* line 822, D:/wamp64/www/style/scss/style.scss */
 .tabCard .tabText {
   position: relative;
   color: white;
@@ -1196,32 +1197,32 @@ header:after {
   line-height: 50px;
 }
 
-/* line 829, D:/wamp64/www/style/scss/style.scss */
+/* line 830, D:/wamp64/www/style/scss/style.scss */
 .tabCard .tabText img {
   width: 35px;
   vertical-align: middle;
 }
 
-/* line 836, D:/wamp64/www/style/scss/style.scss */
+/* line 837, D:/wamp64/www/style/scss/style.scss */
 .tabCard .textHolder {
   margin: 20px;
   text-align: justify;
 }
 
-/* line 841, D:/wamp64/www/style/scss/style.scss */
+/* line 842, D:/wamp64/www/style/scss/style.scss */
 .tabCard .tabTitle {
   font-size: 20px;
   font-weight: 600;
   padding: 0 0 20px 0;
 }
 
-/* line 849, D:/wamp64/www/style/scss/style.scss */
+/* line 850, D:/wamp64/www/style/scss/style.scss */
 .verticalTabs {
   position: absolute;
   left: -50px;
 }
 
-/* line 855, D:/wamp64/www/style/scss/style.scss */
+/* line 856, D:/wamp64/www/style/scss/style.scss */
 .dataContainer {
   width: 100%;
   height: 100%;
@@ -1229,9 +1230,32 @@ header:after {
   position: relative;
 }
 
-/* line 863, D:/wamp64/www/style/scss/style.scss */
+/* line 864, D:/wamp64/www/style/scss/style.scss */
 .gallery img {
   height: 100px;
+}
+
+/* line 870, D:/wamp64/www/style/scss/style.scss */
+.recommend {
+  display: inline;
+  vertical-align: text-top;
+  position: relative;
+  overflow: hidden;
+  top: -25px;
+}
+
+/* line 876, D:/wamp64/www/style/scss/style.scss */
+.recommend span {
+  font-size: 12px;
+  vertical-align: initial;
+  color: #989898;
+  font-weight: 600;
+}
+
+/* line 884, D:/wamp64/www/style/scss/style.scss */
+.colorText {
+  color: #fff;
+  display: block;
 }
 
 /*# sourceMappingURL=../css/style.map */

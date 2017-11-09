@@ -1,0 +1,32 @@
+<!-- START DISPLAY -->
+<div ng-controller="AliceController" class="talent-container">
+    <div ng-repeat="talent in talents" class="card boxed" ng-class=" {{talent.indexing}}">
+        <div class="actionlist">
+            <div id="id"><span>{{talent.id}}</span></div>
+            <div class="addBtn">
+                <a href="#"><img src="assets/icons/plus.svg"></a>
+            </div>
+            <div class="loveBtn">
+                <a href="#"><img src="assets/icons/heart-in-a-circle.svg"></a>
+            </div>
+        </div>
+        <div class="media">
+            <div><img id="slideShow" ng-src="{{talent.images}}"></div>
+            <div class="hide"><img id="slideShow" ng-src="{{talent.images2}}"></div>
+            <div class="hide"><img id="slideShow" ng-src="{{talent.images3}}"></div>
+
+        </div>
+        <div class="info">
+            <div id="name">{{talent.name}}</div>
+            <div class="button medium">
+                <a href="detail.html" class="moreBtn">MORE</a>
+            </div>
+        </div>
+
+        <div class="skills-thumb">
+            <a ng-repeat="skill in talent.skills" href="#" class="boxedMedium">{{skill.name}}</a>
+        </div>
+    </div>
+
+
+</div>

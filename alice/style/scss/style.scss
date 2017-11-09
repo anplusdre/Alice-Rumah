@@ -42,7 +42,7 @@ header {
                 display: block;
                 padding: 15px 0;
                 font-family: $font;
-                color: #989898;
+                color: $less-black;
                 font-size: 0.85em;
                 position: relative;
             }
@@ -227,7 +227,7 @@ header {
             display: block;
             font-size: 12px;
             font-weight: 500;
-            background: $mainb;
+            background: $blue;
             color: #fff;
             border-radius: 4px;
             font-family: "Ubuntu", sans-serif;
@@ -237,6 +237,7 @@ header {
         .actionlist {
             position: relative;
             height: 25px;
+            overflow: hidden;
             .addBtn {
                 display: inline;
                 position: absolute;
@@ -405,7 +406,7 @@ header {
             width: 100%;
             left: 0;
             font-size: 0;
-            transition: all .2s ease-in-out;
+            transition: $smooth;
         }
     }
     .slick-active button {
@@ -490,7 +491,7 @@ header {
         color: #fff;
     }
     input[type=text]:focus::placeholder {
-        color: transparent;
+        color: $less-black;
     }
     .searchBtn {
         position: absolute;
@@ -803,8 +804,8 @@ header {
         width: 50px;
         height: 50px;
         background-color: #47bc8b;
-        -webkit-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
+        -webkit-transition: $smooth;
+        transition: $smooth;
 
     }
     .active {
@@ -813,8 +814,8 @@ header {
         width: 50px;
         height: 50px;
         background-color: #259162;
-        -webkit-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
+        -webkit-transition: $smooth;
+        transition: $smooth;
     }
 
 
@@ -864,4 +865,23 @@ header {
         height: 100px;
 
     }
+}
+
+.recommend {
+    display: inline;
+    vertical-align: text-top;
+    position: relative;
+    overflow: hidden;
+    top: -25px;
+    span {
+        font-size: 12px;
+        vertical-align: initial;
+        color: $less-black;
+        font-weight: 600;
+    }
+}
+
+.colorText {
+    color: #fff;
+    display: block;
 }

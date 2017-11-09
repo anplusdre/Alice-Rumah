@@ -20,8 +20,17 @@
         </div>
 
         <div class="modal-content">
-            <input type="text" maxlength="30" name="search" placeholder="SEARCH">
+            <input type="text" maxlength="30" name="search" placeholder="SEARCH" ng-model="searchName.name" title="Press Enter">
             <a href="#" class="searchBtn"><img src="assets/icons/magnifying-glass.svg"></a>
+            <div ng-controller="AliceController" class="talent-search-container" style="display: none;">
+                <div ng-repeat="talent in talents" class="card" ng-class=" {{talent.indexing}}">
+                    <div class="info" style="background:rgba(255, 255, 255, 0.34);height: 30px;margin-bottom: 2px;">
+                        <div id="name" style="line-height: 27px;float: none;text-align: left;"><a href="#" class="colorText">{{talent.name}}</a></div>
+                    </div>
+                </div>
+
+
+            </div>
         </div>
     </div>
 </div>
